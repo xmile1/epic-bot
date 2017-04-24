@@ -1,14 +1,14 @@
-var xBot = require('../lib/xbot');
+let xBot = require('../lib/xbot');
 require('dotenv').config();
 
-var token = process.env.BOT_API_KEY;
-var dbPath = process.env.BOT_DB_PATH;
-var name = process.env.BOT_NAME || 'xbot';
+const token = process.env.BOT_API_KEY;
+const dbPath = process.env.BOT_DB_PATH;
+const name = process.env.BOT_NAME || 'xbot';
 
-var xBot = new xBot({
-    token: token,
-    dbPath: dbPath,
-    name: name
+xBot = new xBot({
+  token,
+  dbPath,
+  name
 });
 
 xBot.run();
