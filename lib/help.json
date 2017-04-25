@@ -1,0 +1,112 @@
+[
+  {
+    "fallback": "xBot Help Menu",
+    "text": "xBot Help Menu",
+    "mrkdwn_in": [
+      "text",
+      "pretext",
+      "fields"
+    ],
+    "fields": [
+      {
+        "title": "command",
+        "value": "`add me <your desk location> or xam <your desk location>`",
+        "short": true
+      },
+      {
+        "title": "action",
+        "value": "Adds your Desk location so that friends can find you",
+        "short": true
+      },
+      {
+        "value": "`update me <your desk location> or xum <your desk location>` ",
+        "short": true
+      },
+      {
+        "value": "Updates your Desk location",
+        "short": true
+      },
+      {
+        "value": "`am at <your present location> or xaa <your present location>` ",
+        "short": true
+      },
+      {
+        "value": "Updates your Present location",
+        "short": true
+      },
+      {
+        "value": "`add room <Meeting Room Name> description <Meeting Room location> or xar <Meeting Room Name> description <Meeting Room location>`",
+        "short": true
+      },
+      {
+        "value": "Adds a meeting Room location so that people can locate it",
+        "short": true
+      },
+      {
+        "value": "`update room <Meeting Room Name> description <Meeting Room location> or xur <Meeting Room Name> description <Meeting Room location>`",
+        "short": true
+      },
+      {
+        "value": "Updates a meeting Room location",
+        "short": true
+      },
+      {
+        "value": "`update room <Meeting Room Name> imageurl <Meeting Room location> or xur <Meeting Room Name> description <Meeting Room location>`",
+        "short": true
+      },
+      {
+        "value": "Updates a meeting Room visual description",
+        "short": true
+      },
+      {
+        "value": "`add item <Item Name> description <Item location> or xai <Item Name> description <Item location>`",
+        "short": true
+      },
+      {
+        "value": "Adds an Item location so that people can locate it",
+        "short": true
+      },
+      {
+        "value": "`update item <Item Name> description <Item location> or xui <Item Name> description <Item location>`",
+        "short": true
+      },
+      {
+        "value": "Updates an item's location",
+        "short": true
+      },
+      {
+        "value": "`update item <Item Name> imageurl <Item location> or xur <Item Name> description <Item location>`",
+        "short": true
+      },
+      {
+        "value": "Updates an item's visual description",
+        "short": true
+      },
+      {
+        "value": "`where is <username> or xwi <username>`",
+        "short": true
+      },
+      {
+        "value": "Find a user's Present location or Desk",
+        "short": true
+      },
+      {
+        "value": "`where is room <Meeting Room Name> or xwir <Meeting Room Name>`",
+        "short": true
+      },
+      {
+        "value": "Find a Meeting Room's location",
+        "short": true
+      },
+      {
+        "value": "`where is item <Item Name> or xwii <Item Name>`",
+        "short": true
+      },
+      {
+        "value": "Find an item's location",
+        "short": true
+      }
+    ],
+    "color": "#F35A00"
+  }
+]
