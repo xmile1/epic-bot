@@ -14,6 +14,7 @@ if (config.use_env_variable) {
   var sequelize = new Sequelize(config.database, config.username, config.password, config);
 }
 
+//TODO: restructure this code to all having folders inside the models so as to separate model for each bot
 fs
   .readdirSync(__dirname)
   .filter(function(file) {

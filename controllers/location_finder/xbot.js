@@ -1,4 +1,3 @@
-// TODO: Refactor Codebase
 const util = require('util');
 const path = require('path');
 const fs = require('fs');
